@@ -1,0 +1,32 @@
+@media (max-width: 850px) {
+    main {
+        width: 100vw;
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: none;
+    }
+    .your-result {
+        width: 100vw;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .summary {
+        margin: auto;
+    }
+}
+
+@media (max-height: 560px) {
+    main {
+        width: 100vw;
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: none;
+    }
+    .your-result {
+        border-radius: 0px 0px 30px 30px;
+    }
+    .summary {
+        margin: auto;
+    }
+}

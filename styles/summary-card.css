@@ -1,10 +1,15 @@
 .summary {
+    height: 600px;
+    width: 440px;
+}
+.summary > * {
     margin: auto;
 }
 .summary-heading {
     font-size: 1.9rem;
-    width: 17vw;
+    width: 365.883px;;
     font-weight: 600;
+    margin-top: 46px;
     margin-bottom: 40px;
 }
 .stats-list {
@@ -68,4 +73,9 @@ li img {
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    margin-left: 36px;
+}
+/* hsl(252, 100%, 67%) 10px, */
+.continue-button:active {
+    background-image:linear-gradient(hsl(252, 100%, 67%) -80px, hsl(241, 81%, 54%));
 }

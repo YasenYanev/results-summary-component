@@ -5,9 +5,9 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Overview
 
 ### Screenshots
-![Desktop Screenshot](images/Screenshot-desktop.png)
-![Mobile Screenshot](images/Screenshot-mobile.png)
+![Desktop Screenshot](Screenshots/Screenshot-desktop.png)
+![Mobile Screenshot](Screenshots/Screenshot-mobile.png)
 
 ### Links
 
-- Live Site URL: https://yasenyanev.github.io/huddle-landing-page/
+- Live Site URL: https://yasenyanev.github.io/results-summary-component/

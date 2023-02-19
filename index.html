@@ -9,7 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/summary-card.css">
+  <link rel="stylesheet" href="styles/your-result-card.css">
   <title>Results summary component</title>
 
 </head>
@@ -35,7 +37,37 @@
     </article>
 
     <section class="summary">
-      
+      <h2 class="summary-heading">
+        Summary
+      </h2>
+      <ul class="stats-list">
+        <li class="stat1">
+          <img src="images/icon-reaction.svg"> 
+          <span class="stat-title">Reaction</span>
+          <div class="stat-score"><span class="score-out-of">80</span> <span class="max-score">/ 100</span></div>
+        </li>
+
+        <li class="stat2">
+          <img src="images/icon-memory.svg"> 
+          <span class="stat-title">Memory</span>
+          <div class="stat-score"><span class="score-out-of">92</span> <span class="max-score">/ 100</span></div>
+        </li>
+
+        <li class="stat3">
+          <img src="images/icon-verbal.svg"> 
+          <span class="stat-title">Verbal</span>
+          <div class="stat-score"><span class="score-out-of">61</span> <span class="max-score">/ 100</span></div>
+        </li>
+
+        <li class="stat4">
+          <img src="images/icon-visual.svg"> 
+          <span class="stat-title">Visual</span>
+          <div class="stat-score"><span class="score-out-of">72</span> <span class="max-score">/ 100</span></div>
+        </li>
+      </ul>
+      <button class="continue-button">
+        Continue
+      </button>
     </section>
   </main>
   

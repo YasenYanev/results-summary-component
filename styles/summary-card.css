@@ -64,16 +64,23 @@ li img {
 .max-score {
     color: gray;
 }
+.button-holder {
+    min-width: 440px;
+}
 .continue-button {
+    display: block;
     background-color: hsl(224, 30%, 27%);
     color: white;
     font-size: 19px;
     font-weight: 600;
-    padding: 20px 140px;
+    width: 370px;
+    height: 69px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    margin-left: 36px;
+    /*margin-left: 37px;
+    margin-right: 37px;
+    */
 }
 /* hsl(252, 100%, 67%) 10px, */
 .continue-button:active {

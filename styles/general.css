@@ -21,6 +21,7 @@ time, mark, audio, video {
 }
 /* general styles */
 html {
+    width: 100vw;
     height: 100vh;
 }
 body {
